@@ -14,7 +14,3 @@ A collection of useful, reusable, and modern CSS snippets for everyday web devel
 - Clean & organized code
 - Well-commented
 
-## 🔧 How to Use
-1. Clone the repository
-```bash
-git clone https://github.com/yourusername/css-snippets.git
