@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonts Style</title>
+    <style>
+        p.normal {
+            font-style: normal;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 2em;
+            /*16px = 1em */
+        }
+
+
+        p.italic {
+            font-style: italic;
+            font-weight: bold;
+            font-size: 1.87em;
+            /* 30px/16=1.875em */
+        }
+
+        p.oblique {
+            font-style: oblique;
+            font-size: 20px;
+            line-height: 5em; 
+            /* 1em = 16px and 1px = 1/96 of an inch */
+
+        }
+
+        span {
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+
+<body>
+    <p class="normal">Lorem ipsum dolor sit amet.</p>
+    <p class="italic">Lorem ipsum dolor sit amet.</p>
+    <p class="oblique">Lorem ipsum <span>dolor</span> sit amet.</p>
+</body>
+
+</html>
