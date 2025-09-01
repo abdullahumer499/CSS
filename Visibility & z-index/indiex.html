@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visibility and Z-Index</title>
+    <style>
+        .box {
+            padding: 20px;
+            margin: 10px;
+            border: 1px solid black;
+            width: 5%;
+            position: relative;
+        }
+
+        #box1 {
+            background-color: beige;
+            position: relative;
+            top: 40px;
+
+        }
+
+        #box2 {
+            background-color: rgb(114, 77, 77);
+            position: relative;
+            top: 0px;
+            z-index: -1;
+            /* z index -1 lagane se boz 1 is k uper aa gaya */
+
+            /* display: none; */
+            /* visibility: hidden;  */
+        }
+
+        #box3 {
+            background-color: rgb(198, 123, 69);
+
+
+        }
+
+        #box4 {
+            background-color: rgb(189, 189, 123);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box" id="box1">Box1</div>
+    <div class="box" id="box2">Box2</div>
+    <div class="box" id="box3">Box3</div>
+    <div class="box" id="box4">Box4</div>
+</body>
+
+</html>
