@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <style>
+        .container {
+            border: 2px solid black;
+            width: 100%;
+            height: 500px;
+            display: flex;
+            /* flex-wrap: wrap; */
+            /* flex-wrap: wrap-reverse; */
+            /* flex-direction: column; */
+            /* flex-direction: column-reverse; */
+            /* flex-direction: row-reverse; */
+            /* flex-flow: wrap column-reverse; shorthand for direction and flex wrap*/
+            /* justify-content: center;  */
+            /* justify-content: space-between;   */
+            /* justify-content: space-evenly;  is me barabar space aa jae ge in k darmian*/
+            /* justify-content: space-around; kono me space kam bache gi or boxes in between margin aa jae gi */
+            /* align-items: center; */
+            /* align-items: flex-end;  sare elements bottom me aa jate hen container k*/
+            /* align-items: flex-start; by defualt he ye ... sare uper hi hen jis tarah the */
+            /* align-items: stretch;  flex wrap kro or height kam kro to ye evenly stretch ho jate hen*/
+            
+        }
+
+        .box {
+            border: 1px solid blue;
+            padding: 10px;
+            margin: 5px;
+            width: 10%;
+            height: 100px;
+        }
+
+        #item1 {
+           /*  order: 1; /* jis ka order number ziada hoga wo last me aa jae ga 
+            basically order , order change krne k liye hota he. */
+           /* flex-shrink: 2;
+           
+
+        }
+
+        #item5 {
+            order: 40;
+           /* flex-grow: 2;   ab box 5 2 box ki space le ga */
+          /*   flex-shrink:3;  /* chota ho jae ga  */
+          /* flex-basis: 300px; when flex direction is set to row then flex basis will control the width */
+          /* flex-basis: 300px; when flex direction is set to COLUMN then flex basis will control the HEIGHT */
+            
+        }
+
+        #item4{
+            /* flex: 2 4 250px;  grow shrink and then flex basis */
+            align-self: center;
+            align-self: flex-end;
+            align-items: flex-start;
+            align-content: end ;
+            
+        }   
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="box" id="item1">Box1</div>
+        <div class="box" id="item2">Box2</div>
+        <div class="box" id="item3">Box3</div>
+        <div class="box" id="item4">Box4</div>
+        <div class="box" id="item5">Box5</div>
+        <div class="box" id="item6">Box6</div>
+
+    </div>
+</body>
+
+</html> 
