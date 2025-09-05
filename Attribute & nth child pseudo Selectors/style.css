@@ -1,0 +1,35 @@
+input {
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+
+}
+
+input[type='text'] {
+    padding: 5px;
+    margin: 3px auto;
+    border: 2px solid black;
+}
+
+input[type='submit'] {
+    background-color: floralwhite;
+}
+
+a[target='_blank'] {
+    text-decoration: none;
+    color: rgb(22, 168, 173);
+}
+
+li:nth-child(3) {
+    color: rgb(38, 179, 38);
+    /*  hr 3rd item pr color aa jae ga  */
+}
+
+li:nth-child(3n+0) {
+    color: blue;
+
+}
+
+li:nth-child(even) {
+    background-color: yellow;
+}
