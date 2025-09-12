@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables In CSS</title>
+    <style>
+        :root {
+            --1-color: blue;
+            --mx-width: 30%;
+            --radius: 10px;
+            --shadow: 2px 2px 3px green;
+        }
+
+        .card {
+            border: 2px solid red;
+            margin: 5px;
+            width: var(--mx-width);
+            border-radius: var(--radius);
+            padding: 30px;
+            box-shadow: var(--shadow);
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, esse nostrum totam ab perspiciatis omnis,
+        consequuntur culpa quaerat ipsum non veritatis. Porro neque voluptate, quos tempore aliquid numquam deleniti qui
+        non odio iusto magnam.
+    </div>
+
+    <div class="card">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, esse nostrum totam ab perspiciatis omnis,
+        consequuntur culpa quaerat ipsum non veritatis. Porro neque voluptate, quos tempore aliquid numquam deleniti qui
+        non odio iusto magnam.
+    </div>
+</body>
+
+</html>
