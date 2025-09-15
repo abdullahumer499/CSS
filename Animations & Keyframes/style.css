@@ -1,0 +1,53 @@
+.container {
+    background-color: yellow;
+
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: 2px solid red;
+    background-color: green;
+    position: relative;
+    animation-name: abdullah;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    /* animation-fill-mode: forwards;  chalta rahe ga*/
+    animation-timing-function: ease-in-out;
+
+    animation-name: abdullah2;
+}
+
+
+@keyframes abdullah2 {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+
+    25% {
+        top: 200px;
+        left: 0px;
+    }
+
+    75% {
+        left: 200px;
+        top: 200px;
+    }
+
+    100% {
+        top: 0px;
+        left: 200px;
+
+    }
+}
+
+@keyframes abdullah {
+    from {
+        width: 150px;
+    }
+
+    to {
+        width: 600px;
+    }
+}
