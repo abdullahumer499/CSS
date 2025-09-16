@@ -1,0 +1,29 @@
+body {
+    background-color: bisque;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition-property: background-color;
+    /* transition-duration: 1s; */
+    /* transition-timing-function: ease-in-out; */
+    /* transition-delay: 2s; */
+    transition: all 1s ease-in-out .3s;
+
+}
+
+.box:hover {
+    background-color: rgb(37, 149, 37);
+    width: 400px;
+    height: 400px;
+    border-radius: 45px;
+    font-size: 45px;
+    opacity: .7;
+
+
+}
