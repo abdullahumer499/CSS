@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform CSS</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: antiquewhite;
+            height: 40vh;
+        }
+
+        .box {
+            background-color: red;
+            width: 150px;
+            height: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all .5s ease-in-out;
+        }
+
+        .box:hover {
+            /* transform: rotate(45deg); */
+            /* transform: skew(20deg);  paralellogram ban jae ga */
+
+            /* transform: skewY(40deg); */
+            /* transform: scale(2);  bara ho jae ga box */
+            /* transform: translate(123px);  position de rha he */
+            transform: translatey(123px)
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            This is a Box
+        </div>
+    </div>
+</body>
+
+</html>
