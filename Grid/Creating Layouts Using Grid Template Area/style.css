@@ -1,0 +1,30 @@
+.container {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-areas:
+        'header header header header'
+        'section section section aside'
+        'footer footer footer footer'
+    ;
+}
+
+.item {
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+#header {
+    grid-area: header;
+}
+
+#section {
+    grid-area: section;
+}
+
+#aside {
+    grid-area: aside;
+}
+
+#footer {
+    grid-area: footer;
+}
